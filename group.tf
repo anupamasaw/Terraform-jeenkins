@@ -4,7 +4,7 @@ provider "okta" {
   base_url  = "okta.com"
 }
 
-source "okta_group" "newexample" {
+resource "okta_group" "newexample" {
   name        = "terraform12"
   description = "My Example newGroup"
 }

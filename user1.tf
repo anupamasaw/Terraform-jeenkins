@@ -5,9 +5,9 @@ provider "okta" {
 }
 
 resource "okta_user" "user" {
-  first_name = "Pragati"
-  last_name  = "Koyande"
-  login      = "anupama.saw@crossasyst.com"
-  email      = "anupama.saw@crossasyst.com"
+  first_name = "ashna"
+  last_name  = "hegde"
+  login      = "ashna.hegde@crossasyst.com"
+  email      = "ashna.hegde@crossasyst.com"
   status     = "STAGED"
 }

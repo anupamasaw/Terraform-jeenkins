@@ -4,7 +4,7 @@ provider "okta" {
   base_url  = "okta.com"
 }
 
-resource "okta_user" "user2" {
+resource "okta_user" "user" {
   first_name = "mamta"
   last_name  = "saw"
   login      = "sawmamta98@gmail.com"

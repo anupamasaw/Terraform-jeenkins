@@ -4,10 +4,10 @@ provider "okta" {
   base_url  = "okta.com"
 }
 
-resource "okta_user" "user" {
-  first_name = "ashna"
-  last_name  = "hegde"
-  login      = "ashna.hegde@crossasyst.com"
-  email      = "ashna.hegde@crossasyst.com"
+resource "okta_user" "user2" {
+  first_name = "mamta"
+  last_name  = "saw"
+  login      = "sawmamta98@gmail.com"
+  email      = "sawmamta98@gmail.com"
   status     = "STAGED"
 }
